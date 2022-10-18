@@ -12,7 +12,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: The `Pumpkin` class displays something pumpkin-like
+**YES** 1 pt: The `Pumpkin` class displays something pumpkin-like
 
 _____ 1 pt: The `Shirt` class dislays something shirt-like
 
