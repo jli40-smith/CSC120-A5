@@ -115,7 +115,7 @@ Once your Scarecrow is looking good, now it's time to add a decorative `Banner` 
                       *******
 ```
 
-Note: if the "tail" on the speech bubble is giving you trouble, don't worry about it. A stylized regtangular banner is totally fine!
+Note: if the "tail" on the speech bubble is giving you trouble, don't worry about it. A stylized rec8tangular banner is totally fine!
 
 ### Step 4: Command line arguments.
 Now comes the fun part: remember all those times we ignored the `String[] args` that we passed into `main(...)`? We're finally going to put it to use! If you look inside the `main(...)` method of the `Scarecrow` class, you'll see something new:
