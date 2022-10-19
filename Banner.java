@@ -19,13 +19,13 @@ public class Banner {
         int msgLength = this.message.length();
         String resizableAsterisks = "*".repeat(msgLength);
         String resizableTildes = "~".repeat(msgLength); 
-        String resizableWhiteSpaces = " ".repeat(msgLength + 1); 
+        String resizableWhiteSpaces = " ".repeat(msgLength + 10); 
 
-        System.out.println("   ***" + resizableAsterisks +"***");
-        System.out.println(" *** ~~" + resizableTildes + "~ ***");
-        System.out.println("*** ~ " + this.message + "  ~ ***");
-        System.out.println(" *** ~~" + resizableTildes + "~ ***");
-        System.out.println("   ***" + resizableAsterisks +"***");
+        System.out.println("            ***" + resizableAsterisks +"***");
+        System.out.println("          *** ~~" + resizableTildes + "~ ***");
+        System.out.println("         *** ~  " + this.message + " ~ ***");
+        System.out.println("          *** ~~" + resizableTildes + "~ ***");
+        System.out.println("            ***" + resizableAsterisks +"***");
         System.out.println(resizableWhiteSpaces + "*******");
         System.out.println(resizableWhiteSpaces + "  ***");
         System.out.println(resizableWhiteSpaces + " **");
