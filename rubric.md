@@ -34,7 +34,7 @@ _____ 1 pt: The `Boot` class displays something boot-like
 
 _____ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
 
-_____ 1 pt: The program displays a default message if none is supplied.
+**YES** 1 pt: The program displays a default message if none is supplied.
 
 ## Kudos:
 
