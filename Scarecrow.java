@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 /*
  * Scarecrow class (template)
  * Assignment 5: Bringing it All Together
@@ -16,7 +14,7 @@ class Scarecrow {
     //private Boot leftFoot;
     //private Boot rightFoot;
     private Banner sign;
-    private String message;
+    //private String message;
 
     //Constructor
     public Scarecrow(Pumpkin h, Shirt s, Pants p, Banner b) {
@@ -28,28 +26,23 @@ class Scarecrow {
 
     // Displays the Scarecrow 
     public void display() {
-        sign.display(); 
+        sign.display();
         head.display();
         body.display();
         legs.display();
     }
 
-
-
     /* Main method (for testing) */
     public static void main(String[] args) {
-        String defaultMessage = "Happy Halloween!"; 
-        ArrayList<String> userInput = new ArrayList<String>(); 
-        
-        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(defaultMessage));
-        
+        String message;
+
         if (args.length > 0) {
-            
-            for (int i = 0; i < args.length; i++) {
-                userInput.add(args[i]); 
-            }
-            myScarecrow.message = String.join(" ", userInput); 
+            message = args[0];
+        } else {
+            message = "Happy Halloween!";
         }
+
+        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(message));
 
         myScarecrow.display();
     
