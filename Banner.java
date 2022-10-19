@@ -14,28 +14,27 @@ public class Banner {
         this.message = m;
     }
 
-    /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
-     */
+    /* Prints a decorative banner, resized to fit the message*/
     public void display() {
         int msgLength = this.message.length();
         String resizableAsterisks = "*".repeat(msgLength);
         String resizableTildes = "~".repeat(msgLength); 
+        String resizableWhiteSpaces = " ".repeat(msgLength + 1); 
 
         System.out.println("   ***" + resizableAsterisks +"***");
         System.out.println(" *** ~~" + resizableTildes + "~ ***");
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println("*** ~ " + this.message + "  ~ ***");
+        System.out.println(" *** ~~" + resizableTildes + "~ ***");
+        System.out.println("   ***" + resizableAsterisks +"***");
+        System.out.println(resizableWhiteSpaces + "*******");
+        System.out.println(resizableWhiteSpaces + "  ***");
+        System.out.println(resizableWhiteSpaces + " **");
+        System.out.println(resizableWhiteSpaces + "*");
     }
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("Hello world");
+        Banner myBanner = new Banner("Amogus Sussy Baka");
         myBanner.display();
     }
 }
