@@ -18,7 +18,19 @@ public class Banner {
      * TODO: Modify this method to print a decorative banner, resized to fit the message
      */
     public void display() {
-        System.out.println(this.message);
+        int msgLength = this.message.length();
+        String resizableAsterisks = "*".repeat(msgLength);
+        String resizableTildes = "~".repeat(msgLength); 
+
+        System.out.println("   ***" + resizableAsterisks +"***");
+        System.out.println(" *** ~~" + resizableTildes + "~ ***");
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
     }
 
     /* main method (for testing) */

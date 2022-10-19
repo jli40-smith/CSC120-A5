@@ -19,7 +19,7 @@ public class Pumpkin {
         System.out.println("    ;   |\\           /|  ;");
         System.out.println("    ;   | ''--...--'' |  ;");
         System.out.println("     \\  ''---.....--''  /");
-        System.out.println("     ''*-.,_______,.-*'  ");  
+        System.out.println("      ''*-.,_______,.-*'  ");  
 
     }
     

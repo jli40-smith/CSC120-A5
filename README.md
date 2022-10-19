@@ -10,8 +10,11 @@ In this assignment, we'll explore Association by building a virtual Scarecrow us
  *** ~~~~~~~~~~~~~~~~~~~~~~~~ ***
    ********************     ***
                       *******
-              ___.      ***
-           ___)__|_.   **  
+                        ***
+                       **
+                      *
+              ___.
+           ___)__|_.     
       .-*'          '*-,
      /      /|   |\     \ 
     ;      /_|   |_\     ;
