@@ -18,7 +18,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 **YES** 1 pt: The `Pants` class displays something pants-like
 
-_____ 1 pt: The `Boot` class displays something boot-like
+**YES** 1 pt: The `Boot` class displays something boot-like
 
 ### Level 2 (3 pts)
 

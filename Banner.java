@@ -34,7 +34,7 @@ public class Banner {
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("Amogus Sussy Baka");
+        Banner myBanner = new Banner("A");
         myBanner.display();
     }
 }

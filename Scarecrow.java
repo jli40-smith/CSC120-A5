@@ -11,17 +11,19 @@ class Scarecrow {
     private Pumpkin head;
     private Shirt body;
     private Pants legs;
-    //private Boot leftFoot;
-    //private Boot rightFoot;
+    private Boot leftFoot;
+    private Boot rightFoot;
     private Banner sign;
     //private String message;
-
+                          
     //Constructor
-    public Scarecrow(Pumpkin h, Shirt s, Pants p, Banner b) {
+    public Scarecrow(Pumpkin h, Shirt s, Pants p, Banner b, Boot lbt, Boot rbt) {
         head = h;
         body = s;
         legs = p;
         sign = b;
+        leftFoot = lbt; 
+        rightFoot = rbt; 
     }
 
     // Displays the Scarecrow 
@@ -30,6 +32,8 @@ class Scarecrow {
         head.display();
         body.display();
         legs.display();
+        leftFoot.display();
+        rightFoot.display();
     }
 
     /* Main method (for testing) */
@@ -42,7 +46,7 @@ class Scarecrow {
             message = "Happy Halloween!";
         }
 
-        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(message));
+        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(message), new Boot("left"), new Boot("right"));
 
         myScarecrow.display();
     

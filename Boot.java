@@ -14,15 +14,15 @@ public class Boot {
     }
 
     /*
-     * TODO: Modify this method to print ASCII Art Boot
+     * Prints a ASCII Art Boot
      */
     public void display() {
         if (this.direction.equals("left")) {
-          System.out.println("Left boot?");
+          System.out.print("       (______|");
         } else if (this.direction.equals("right")) {
-          System.out.println("Right boot?");
+          System.out.println("|______)");
         } else {
-          System.out.println("Which boot?");
+          System.out.println("Which boot? Do you want \"left\" or \"right?\"");
         }
     }
 
@@ -30,7 +30,9 @@ public class Boot {
     public static void main(String[] args) {
         Boot myLeftBoot = new Boot("left");
         Boot myRightBoot = new Boot("right");
+        Boot exceptionBoot = new Boot("Amongus"); 
         myLeftBoot.display();
         myRightBoot.display();
+        exceptionBoot.display();
     }
 }
