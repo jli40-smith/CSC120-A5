@@ -16,14 +16,14 @@ class Scarecrow {
     //private Boot leftFoot;
     //private Boot rightFoot;
     private Banner sign;
-    //private String message;
+    private String message;
 
     //Constructor
     public Scarecrow(Pumpkin h, Shirt s, Pants p, Banner b) {
         head = h;
-        body = s; 
-        legs = p; 
-        sign = b; 
+        body = s;
+        legs = p;
+        sign = b;
     }
 
     // Displays the Scarecrow 
@@ -38,27 +38,21 @@ class Scarecrow {
 
     /* Main method (for testing) */
     public static void main(String[] args) {
+        String defaultMessage = "Happy Halloween!"; 
         ArrayList<String> userInput = new ArrayList<String>(); 
-        String message; 
+        
+        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(defaultMessage));
         
         if (args.length > 0) {
             
             for (int i = 0; i < args.length; i++) {
                 userInput.add(args[i]); 
             }
-            message = String.join(" ", userInput); 
-
-        } else {
-            message = "Happy Halloween!"; 
+            myScarecrow.message = String.join(" ", userInput); 
         }
 
-        Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(message));
-
-        // If a message was passed in on the command line, extract and store it
-        // TODO: in Step 4, you'll pass this value along to your Banner constructor
-        
-
         myScarecrow.display();
+    
     }
 
 }
