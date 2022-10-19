@@ -11,12 +11,12 @@ class Scarecrow {
      * TODO: Uncomment remaining parts as you implement each class
      */
     private Pumpkin head;
-    // private Shirt body;
-    // private Pants legs;
-    // private Hat hat;
-    // private Boot leftFoot;
-    // private Boot rightFoot;
-    // private Banner sign;
+    private Shirt body;
+    private Pants legs;
+    //private Hat hat;
+    private Boot leftFoot;
+    private Boot rightFoot;
+    private Banner sign;
     private String message;
 
     /* Constructor
