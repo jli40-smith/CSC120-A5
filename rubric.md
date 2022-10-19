@@ -24,7 +24,7 @@ _____ 1 pt: The `Boot` class displays something boot-like
 
 **YES** 1 pt: The `Scarecrow` class displays something `Scarecrow-like`
 
-_____ 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
+**YES** 1 pt: The `Scarecrow` uses the classes defined in Level 1 (**Association**) to accomplish its goals
 
 _____ 1 pt: The `Banner` class displays a decorative Banner
 

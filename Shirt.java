@@ -14,7 +14,7 @@ public class Shirt {
         System.out.println("      .`  \\ \\    / /  `.");
         System.out.println("    .`     \\ |  | /     `."); 
         System.out.println("   /   /\\ --- |/ --- /\\   \\"); 
-        System.out.println("  /   / | \\_/ |0 \\_/ | \\   \\"); 
+        System.out.println("  /   / ( \\_/ |0 \\_/ ) \\   \\"); 
         System.out.println(" /===/  \\     |      /  \\===\\"); 
         System.out.println("/___/   /     |0     \\   \\___\\"); 
         System.out.println("        |_____/\\_____|");  
