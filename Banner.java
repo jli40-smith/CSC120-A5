@@ -16,7 +16,7 @@ public class Banner {
 
     /* Prints a decorative banner, resized to fit the message*/
     public void display() {
-        int msgLength = this.message.length();
+        int msgLength = this.message.length(); //Source [1]
         String resizableAsterisks = "*".repeat(msgLength);
         String resizableTildes = "~".repeat(msgLength); 
         String resizableWhiteSpaces = " ".repeat(msgLength + 10); 
