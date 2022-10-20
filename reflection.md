@@ -9,7 +9,14 @@ I think Association made it easier to implement, test, and debug the printing of
 What worked was that I was able to make the Scarecrow print and fulfill the basic performance requirements 
 on the different levels of the rubric. What did not work was that I could not think of a way to print just a single right boot without a 
 left boot using the current code structure I have, even if I can print each boot individually, if printed first left, then right. I also could not 
-think of a way to use some of the template code in Scarecrow.java, such as using myScarecrow.message or a private String message in the code; in the end, I wrote working code which did not involve those snippets, but still satisfy the assignment requirements.  
+think of a way to use some of the template code in Scarecrow.java, such as using myScarecrow.message or a private String message in the code; in the end, I wrote working code which did not involve those snippets, but still satisfy the assignment requirements.
+
+For someone taking the class in the future, I would recommend reading some documentation or other articles about the use of 
+System.out.println() and System.out.print(), watching a video tutorial about constructors in Java, and typing sysout and then pressing tab to type 
+System.out.println() in a quicker way than usual. 
+
+**COLLABORATORS*
+Zoe Plumridge- helped me with the Boot code
 
 **REFERENCES** (In-line citation example: //Source[n])
 [1] Code to make a string of repeated characters, used in the resizable portion of the banner. Learned it from this website. https://www.baeldung.com/java-string-of-repeated-characters 
