@@ -10,6 +10,7 @@ public class Shirt {
      * Prints ASCII art depicting a shirt to the console
      */
     public void display() {
+
         System.out.println("        __,--./|.--,__");
         System.out.println("      .`  \\ \\    / /  `.");
         System.out.println("    .`     \\ |  | /     `."); 
@@ -18,6 +19,7 @@ public class Shirt {
         System.out.println(" /===/  \\     |      /  \\===\\"); 
         System.out.println("/___/   /     |0     \\   \\___\\"); 
         System.out.println("        |_____/\\_____|");  
+
     }
 
     /* main method (for testing) */
@@ -25,4 +27,5 @@ public class Shirt {
         Shirt myShirt = new Shirt();
         myShirt.display();
     }
+
 }

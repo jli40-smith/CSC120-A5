@@ -10,6 +10,7 @@ public class Pants {
      * Prints ASCII art depicting a pair of pants to the console
      */
     public void display() {
+
         System.out.println("        |   | \\/  |  |");
         System.out.println("        |__/  ||  \\__|");
         System.out.println("        |     ||     |");
@@ -20,6 +21,7 @@ public class Pants {
         System.out.println("        |     ||     |");
         System.out.println("        |     ||     |");
         System.out.println("        |__=__||__=__|");
+
     }
 
     /* main method (for testing) */
@@ -27,4 +29,5 @@ public class Pants {
         Pants myPants = new Pants();
         myPants.display();
     }
+
 }

@@ -14,8 +14,7 @@ class Scarecrow {
     private Boot leftFoot;
     private Boot rightFoot;
     private Banner sign;
-    //private String message;
-                          
+
     //Constructor
     public Scarecrow(Pumpkin h, Shirt s, Pants p, Banner b, Boot lbt, Boot rbt) {
         head = h;
@@ -26,7 +25,7 @@ class Scarecrow {
         rightFoot = rbt; 
     }
 
-    // Displays the Scarecrow 
+    // Displays the Scarecrow
     public void display() {
         sign.display();
         head.display();
@@ -36,7 +35,6 @@ class Scarecrow {
         rightFoot.display();
     }
 
-    /* Main method (for testing) */
     public static void main(String[] args) {
         String message;
 
@@ -47,9 +45,7 @@ class Scarecrow {
         }
 
         Scarecrow myScarecrow = new Scarecrow(new Pumpkin(), new Shirt(), new Pants(), new Banner(message), new Boot("left"), new Boot("right"));
-
         myScarecrow.display();
-    
     }
 
 }

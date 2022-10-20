@@ -40,7 +40,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 **PART** (Kudos!) Banner is printed as a speech bubble with correct alignment
 
-_____ (Kudos!) Boots are mirror images of one another
+**YES** (Kudos!) Boots are mirror images of one another
 
 
 

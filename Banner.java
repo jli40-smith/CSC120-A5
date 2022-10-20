@@ -17,8 +17,9 @@ public class Banner {
     /* Prints a decorative banner, resized to fit the message*/
     public void display() {
         int msgLength = this.message.length(); //Source [1]
+
         String resizableAsterisks = "*".repeat(msgLength);
-        String resizableTildes = "~".repeat(msgLength); 
+        String resizableTildes = "~".repeat(msgLength);
         String resizableWhiteSpaces = " ".repeat(msgLength + 10); 
 
         System.out.println("            ***" + resizableAsterisks +"***");
@@ -30,11 +31,13 @@ public class Banner {
         System.out.println(resizableWhiteSpaces + "  ***");
         System.out.println(resizableWhiteSpaces + " **");
         System.out.println(resizableWhiteSpaces + "*");
+
     }
 
     /* main method (for testing) */
     public static void main(String[] args) {
-        Banner myBanner = new Banner("A");
+        Banner myBanner = new Banner("The banner works!");
         myBanner.display();
     }
+
 }
