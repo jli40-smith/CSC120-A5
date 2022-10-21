@@ -1,5 +1,5 @@
 /**
- * Creates a pair of ASCII art pants which can be printed to the console
+ * A pair of ASCII art pants which can be printed to the console
  * 
  * @author Joanna Li
  * @version 21 October 2022
@@ -26,6 +26,7 @@ public class Pants {
 
 /**
  * Main method for testing the display of the pants
+ * 
  * @param args String array for command-line arguments
  */
     public static void main(String[] args) {

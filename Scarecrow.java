@@ -1,10 +1,9 @@
-/*
- * Scarecrow class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+/**
+* An ASCII art scarecrow with a resizable banner containing a message which can be printed to the console
+ * 
+ * @author Joanna Li
+ * @version 21 October 2022
  */
-
 class Scarecrow {
 
     // Parts of the Scarecrow
@@ -15,7 +14,16 @@ class Scarecrow {
     private Boot rightFoot;
     private Banner sign;
 
-    //Constructor
+/**
+ * Creates a Scarecrow object which includes a resizable banner
+ * 
+ * @param h Head object making up the pumpkin head of the scarecrow
+ * @param s Shirt object making up the body of the scarecrow
+ * @param p Pants object making up the legs of the Scarecrow
+ * @param b Banner object containing the Scarecrow's message
+ * @param lbt Boot object making up the left foot of the scarecrow
+ * @param rbt Boot object making up the right foot of the scarecrow
+ */
     public Scarecrow(Pumpkin h, Shirt s, Pants p, Banner b, Boot lbt, Boot rbt) {
         head = h;
         body = s;
@@ -25,7 +33,9 @@ class Scarecrow {
         rightFoot = rbt; 
     }
 
-    // Displays the Scarecrow
+/**
+ * Prints the banner to the console
+ */
     public void display() {
         sign.display();
         head.display();
@@ -35,6 +45,10 @@ class Scarecrow {
         rightFoot.display();
     }
 
+/**
+ * Displays the Scarecrow with a custom message from the command line
+ * @param args String message command line argument which will be printed with the scarecrow
+ */
     public static void main(String[] args) {
         String message;
 
