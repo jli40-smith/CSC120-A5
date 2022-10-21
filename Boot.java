@@ -37,10 +37,8 @@ public class Boot {
     public static void main(String[] args) {
         Boot myLeftBoot = new Boot("left");
         Boot myRightBoot = new Boot("right");
-        Boot exceptionBoot = new Boot("Amongus"); 
         myLeftBoot.display();
         myRightBoot.display();
-        exceptionBoot.display();
     }
 
 }
