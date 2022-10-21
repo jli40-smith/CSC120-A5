@@ -1,14 +1,14 @@
-/*
- * Pumpkin class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+/**
+ * Creates an ASCII art pumpkin which can be printed to the console
+ * 
+ * @author Joanna Li
+ * @version 21 October 2022
  */
 public class Pumpkin {
     
-    /*
-     * Prints ASCII art depicting a jack-o'-lantern to the console
-     */
+/**
+* Prints ASCII art depicting a pumpkin to the console
+*/
     public void display() {
 
         System.out.println("              ___");
@@ -22,8 +22,11 @@ public class Pumpkin {
         System.out.println("      ''*-.,_______,.-*'  ");  
 
     }
-    
 
+/**
+ * Main method for testing the display of the pumpkin
+ * @param args String array for command-line arguments
+ */
     public static void main(String[] args) {
         Pumpkin myPumpkin = new Pumpkin();
         myPumpkin.display();

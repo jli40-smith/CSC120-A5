@@ -1,14 +1,14 @@
-/*
- * Shirt class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+/**
+ * Creates an ASCII art shirt that can be printed to the console
+ * 
+ * @author Joanna Li
+ * @version 21 October 2022
  */
 public class Shirt {
 
-    /*
-     * Prints ASCII art depicting a shirt to the console
-     */
+/**
+* Prints ASCII art depicting a shirt to the console
+*/
     public void display() {
 
         System.out.println("        __,--./|.--,__");
@@ -22,7 +22,10 @@ public class Shirt {
 
     }
 
-    /* main method (for testing) */
+/**
+ * Main method for testing the display of the shirt
+ * @param args String array for command-line arguments
+ */
     public static void main(String[] args) {
         Shirt myShirt = new Shirt();
         myShirt.display();
