@@ -1,5 +1,5 @@
 /**
- * Creates an ASCII art boot which can be printed to the console
+ * An ASCII art boot which can be printed to the console
  * 
  * @author Joanna Li
  * @version 21 October 2022
@@ -31,6 +31,7 @@ public class Boot {
 
 /**
  * Main method for testing the display of the boots
+ * 
  * @param args String array for command-line arguments
  */
     public static void main(String[] args) {

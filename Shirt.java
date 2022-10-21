@@ -1,5 +1,5 @@
 /**
- * Creates an ASCII art shirt that can be printed to the console
+ * An ASCII art shirt that can be printed to the console
  * 
  * @author Joanna Li
  * @version 21 October 2022
@@ -24,6 +24,7 @@ public class Shirt {
 
 /**
  * Main method for testing the display of the shirt
+ *
  * @param args String array for command-line arguments
  */
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 /**
- * Creates a resizable ASCII art banner with a message that can be printed to the console
+ * A resizable ASCII art banner with a message that can be printed to the console
  * 
  * @author Joanna Li
  * @version 21 October 2022
@@ -9,6 +9,7 @@ public class Banner {
 
 /**
  *  Creates a Banner object which resizes to fit the specified message
+ * 
  * @param m String message that is contained in banner
  */
     public Banner(String m) {
@@ -39,6 +40,7 @@ public class Banner {
 
 /**
  * Main method for testing the display of the banner 
+ * 
  * @param args String array for command-line arguments
  */
     public static void main(String[] args) {

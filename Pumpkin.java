@@ -1,5 +1,5 @@
 /**
- * Creates an ASCII art pumpkin which can be printed to the console
+ * An ASCII art pumpkin which can be printed to the console
  * 
  * @author Joanna Li
  * @version 21 October 2022
@@ -25,6 +25,7 @@ public class Pumpkin {
 
 /**
  * Main method for testing the display of the pumpkin
+ * 
  * @param args String array for command-line arguments
  */
     public static void main(String[] args) {
