@@ -17,7 +17,7 @@ public class Boot {
     }
 
 /**
- * Prints a Boot to the console
+ * Prints the boot to the console
  */
     public void display() {
         if (this.direction.equals("left")) {
@@ -30,7 +30,7 @@ public class Boot {
     }
 
 /**
- * Main method for testing the display of the banner 
+ * Main method for testing the display of the boots
  * @param args String array for command-line arguments
  */
     public static void main(String[] args) {
