@@ -1,21 +1,24 @@
-/*
- * Boot class (template)
- * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+/**
+ * Creates an ASCII art boot which can be printed to the console
+ * 
+ * @author Joanna Li
+ * @version 21 October 2022
  */
 public class Boot {
   
     private String direction;
   
-    /* Constructor */
+/**
+ * Creates a Boot object with a specified direction 
+ * @param direction String which determines whether the left or right boot will be printed
+ */
     public Boot(String direction) {
         this.direction = direction.toLowerCase();
     }
 
-    /*
-     * Prints a ASCII Art Boot
-     */
+/**
+ * Prints a Boot to the console
+ */
     public void display() {
         if (this.direction.equals("left")) {
           System.out.print("       (____^_|");
@@ -26,7 +29,10 @@ public class Boot {
         }
     }
 
-    /* main method (for testing) */
+/**
+ * Main method for testing the display of the banner 
+ * @param args String array for command-line arguments
+ */
     public static void main(String[] args) {
         Boot myLeftBoot = new Boot("left");
         Boot myRightBoot = new Boot("right");
